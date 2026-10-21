@@ -1,0 +1,68 @@
+
+<section class="seccion-detalle">
+
+  <a href="/mascotas" class="enlace-volver">
+    ← Volver al catálogo
+  </a>
+
+  <div class="detalle-mascota">
+
+    <div class="detalle-imagen">
+      <img
+        src="<%= mascota.imagen %>"
+        alt="Imagen de <%= mascota.nombre %>"
+      >
+    </div>
+
+    <div class="detalle-contenido">
+
+      <span class="etiqueta">🐾 Conocé a nuestra mascota</span>
+
+      <h1><%= mascota.nombre %></h1>
+
+      <span class="estado-mascota">
+        <%= mascota.estado %>
+      </span>
+
+      <div class="detalle-datos">
+
+        <p>
+          <strong>Identificador:</strong>
+          <%= mascota.id %>
+        </p>
+
+        <p>
+          <strong>Especie:</strong>
+          <%= mascota.especie %>
+        </p>
+
+        <p>
+          <strong>Edad:</strong>
+          <%= mascota.edad %>
+          <% if (mascota.edad === 1) { %>
+            año
+          <% } else { %>
+            años
+          <% } %>
+        </p>
+
+        <p>
+          <strong>Estado de adopción:</strong>
+          <%= mascota.estado %>
+        </p>
+
+      </div>
+
+      <div class="detalle-descripcion">
+        <h2>Su historia</h2>
+        <p><%= mascota.descripcion %></p>
+      </div>
+
+      <a href="/mascotas" class="boton boton-principal">
+        Ver todas las mascotas
+      </a>
+
+    </div>
+  </div>
+
+</section>

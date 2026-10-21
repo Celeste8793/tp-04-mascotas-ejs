@@ -1,0 +1,42 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="400"
+     height="300"
+     viewBox="0 0 400 300"
+     role="img"
+     aria-labelledby="titulo descripcion">
+
+  <title id="titulo">Huellita de mascota</title>
+  <desc id="descripcion">
+    Ilustración de una huella turquesa sobre un fondo claro.
+  </desc>
+
+  <rect width="400" height="300" rx="24" fill="#e7f7f5"/>
+
+  <circle cx="140" cy="100" r="24" fill="#168b88"/>
+  <circle cx="193" cy="77" r="25" fill="#168b88"/>
+  <circle cx="247" cy="91" r="24" fill="#168b88"/>
+  <circle cx="289" cy="135" r="22" fill="#168b88"/>
+
+  <path
+    d="M200 135
+       C170 135 157 160 140 182
+       C125 202 128 229 146 242
+       C165 256 184 244 200 240
+       C216 244 235 256 254 242
+       C272 229 275 202 260 182
+       C243 160 230 135 200 135Z"
+    fill="#168b88"
+  />
+
+  <path
+    d="M171 200
+       C183 187 194 181 206 182"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="7"
+    stroke-linecap="round"
+    opacity="0.5"
+  />
+
+</svg>
